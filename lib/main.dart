@@ -16,13 +16,13 @@ class MainApp extends StatelessWidget {
           margin: EdgeInsets.all(10),
           child: Row(
             children: [
-              Container(
+              SizedBox(
                 width: 5,
                 height: 43,
                 child: ColoredBox(color: Colors.black),
               ),
               Padding(padding: EdgeInsets.only(right: 9)),
-              Column(children: [Text("Commande N.254")]),
+              // Column(children: [Text("Commande N.254")]),
             ],
           ),
         ),
