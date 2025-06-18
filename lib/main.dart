@@ -34,10 +34,8 @@ class MainApp extends StatelessWidget {
                   ),
                   Padding(padding: EdgeInsets.only(right: 9)),
                   Column(
-                    children: [
-                      Text("Commande N.254", textAlign: TextAlign.left),
-                      Text('Anonyme', textAlign: TextAlign.left),
-                    ],
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [Text("Commande N.254"), Text('Anonyme')],
                   ),
                   Spacer(),
                   RoundedSquareIconButton(
