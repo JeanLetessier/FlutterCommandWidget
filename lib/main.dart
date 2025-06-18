@@ -29,7 +29,7 @@ class MainApp extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: 3,
-                    height: 35,
+                    height: 30,
                     child: ColoredBox(color: Colors.black),
                   ),
                   Padding(padding: EdgeInsets.only(right: 9)),
@@ -123,7 +123,7 @@ class RoundedSquareElevatedButton extends StatelessWidget {
         foregroundColor: textColor,
       ),
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 26, vertical: 12),
+        margin: EdgeInsets.symmetric(horizontal: 26, vertical: 9.5),
         child: Text(text),
       ),
     );
